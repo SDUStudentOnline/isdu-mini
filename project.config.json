@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "isdu",
+  "description": "",
+  "appid": "wx5e48a0b72823045e",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

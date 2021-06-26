@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "isdu",
+  "description": "i山大-山大综合信息平台",
+  "appid": "1110168477",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
