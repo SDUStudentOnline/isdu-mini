@@ -1,23 +1,13 @@
-import { Component } from 'react';
-import { View, Text } from '@tarojs/components';
-import './index.scss';
+import { View } from '@tarojs/components';
+import classes from './index.module.scss';
 
-export default class Index extends Component {
-  componentWillMount() {}
+const Index: React.FC = () => {
+  return (
+    <View className={classes.pageContainer}>
+      <View className={classes.navBar}>i 山大</View>
+      <View className={classes.main}>Test</View>
+    </View>
+  );
+};
 
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
-  componentDidShow() {}
-
-  componentDidHide() {}
-
-  render() {
-    return (
-      <View className='index'>
-        <Text>Hello world!</Text>
-      </View>
-    );
-  }
-}
+export default Index;

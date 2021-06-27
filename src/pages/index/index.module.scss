@@ -1,0 +1,23 @@
+$bgHeight: 300px;
+$bgImgUrl: url(https://isdumini-1303082206.cos.ap-shanghai.myqcloud.com/home-background.png);
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-image: $bgImgUrl, linear-gradient(#c7fff4 0%, #fff $bgHeight);
+  background-blend-mode: multiply;
+
+  .navBar {
+    display: block;
+    padding: 16px;
+    color: #333;
+    font-size: 38px;
+  }
+
+  .main {
+    flex: 1;
+  }
+}

@@ -1,3 +1,5 @@
+const path = require('path');
+
 const config = {
   projectName: 'isdu',
   date: '2021-6-26',
